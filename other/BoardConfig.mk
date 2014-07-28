@@ -1,0 +1,24 @@
+# Just a reference, add to your BoardConfig.mk file
+
+# https://github.com/Angel666/android_device_samsung_santos103g/blob/master/BoardConfig.mk
+TARGET_BOARD_PLATFORM := clovertrail
+TARGET_ARCH := x86
+TARGET_ARCH_VARIANT := x86
+TARGET_CPU_ABI := x86
+TARGET_CPU_VARIANT := x86
+TARGET_ARCH_VARIANT_FPU := sse
+TARGET_CPU_ABI2 := armeabi-v7a
+TARGET_BOOTLOADER_BOARD_NAME := t00f
+TARGET_CPU_SMP := true
+
+# TWRP
+TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+DEVICE_RESOLUTION := 720x1280
+TWRP_EVENT_LOGGING := false
+TARGET_PREBUILT_RECOVERY_KERNEL := device/asus/t00f/kernel
+RECOVERY_SDCARD_ON_DATA := true
+TW_INTERNAL_STORAGE_PATH := "/data/media/0"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
+TW_EXTERNAL_STORAGE_PATH := "/sdcard"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard"
+TW_FLASH_FROM_STORAGE := true
